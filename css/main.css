@@ -1,0 +1,127 @@
+body {
+    width: 1140px;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+.container {
+    width: 1140px;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.main-header {
+    display: flex;
+    /* position: fixed; */
+    width: 100%;
+    top: 0;
+    background-color: #f8f8f8; /* Orqa fon rangi (istalgan rang) */
+    padding: 10px 0;
+}
+
+.main-header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.main-navigation__lists {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 3rem;
+    padding: 0;
+}
+
+.main-navigation__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-section {
+    /* margin-top: 100px; */
+}
+
+.main-section__stories {
+    background-color: aqua;
+    width: 5rem;
+    height: 5rem;
+    padding: 5px;
+}
+
+.main-section__stories-border {
+    width: 4rem;
+    height: 4rem;
+    background-color: chartreuse;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+
+.main-section__lists {
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+}
+
+
+
+.main-section__stories {
+    display: flex;
+    flex-direction: column; /* Elementlarni ustun shaklida joylash */
+    align-items: center; /* Gorizontal markazlash */
+    justify-content: center; /* Vertikal markazlash */
+    /* height: 200px; Kerakli balandlik */
+}
+
+
+
+.main-section__stories-description {
+    margin: 0;
+} 
+
+.main-footer {
+    display: flex;
+    /* position: fixed; */
+    bottom: 0; /* Footer pastda turishi uchun */
+    width: 100%; /* To‘liq ekran bo‘ylab */
+    background-color: #f8f8f8; /* Orqa fon rangi (istalgan rang) */
+    padding: 10px 0;
+}
+
+.main-footer__lists {
+    display: flex;
+    justify-content: space-between; /* Ikonkalarni butunlay yoyish */
+    align-items: center;
+    width: 100%; /* To‘liq kenglikni egallash */
+    padding: 0 20px; /* Chap va o‘ng tomondan biroz bo‘sh joy */
+    list-style: none;
+}
+
+.main-footer__list {
+    flex: 1; /* Har bir element teng kenglik egallasin */
+    text-align: center; /* Ikonlarni markazga olish */
+}
+
+.main-footer__list i {
+    font-size: 24px; /* Ikonkalarni kattalashtirish */
+}
+
+.main-post__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-post__left {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-post__content img {
+    width: 100%;
+}
