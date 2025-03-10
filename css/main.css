@@ -117,6 +117,10 @@ ul {
     font-size: 24px; /* Ikonkalarni kattalashtirish */
 }
 
+.main-posts {
+    width: 420px;
+}
+
 .main-post__top {
     display: flex;
     justify-content: space-between;
@@ -124,7 +128,13 @@ ul {
 
 .main-post__left {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main-post__logo {
+    width: 15px;
+    height: 15px;
 }
 
 .main-post__content img {
