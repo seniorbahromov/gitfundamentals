@@ -1,0 +1,61 @@
+/* Body umumiy dizayni */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Storylar konteyneri */
+.stories-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Storylar ro‘yxati */
+.stories {
+    display: flex;
+    list-style: none;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 10px;
+    white-space: nowrap;
+    width: 250px;
+    gap: 10px;
+}
+
+/* Story elementlari */
+.story {
+    text-align: center;
+    flex: 0 0 auto;
+}
+
+/* Dumaloq profil rasmi */
+.story img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid #ff4500; /* Instagram story halqasi */
+    padding: 2px;
+}
+
+/* Foydalanuvchi nomi */
+.story p {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/* Skroll tugmalari */
+button {
+    background: #0095f6;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 50%;
+}

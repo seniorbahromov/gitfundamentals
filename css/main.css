@@ -44,8 +44,13 @@ ul {
     align-items: center;
 }
 
-.main-section {
-    /* margin-top: 100px; */
+.main-section__lists {
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    /* width: 250px;
+    gap: 10px; */
+    width: 420px;
+
 }
 
 .main-section__stories {
