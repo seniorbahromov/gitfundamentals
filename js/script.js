@@ -143,3 +143,24 @@ console.log(n--); // 6 (avval chiqarib, keyin kamaytiradi)
 let yosh1 = 18;
 let natijam = (yosh1 >= 18) ? "Kattalar" : "Bolalar";
 console.log(natijam); // "Kattalar"
+
+let bir = 1;
+// let nat = (bir >= 1)
+console.log(bir);
+
+let tir = 14;
+console.log(tir)
+
+// tegilmasin 
+    document.addEventListener("DOMContentLoaded", function() {
+        document.querySelectorAll(".main-post__content img").forEach((img, index) => {
+            img.src = `https://picsum.photos/420/420?random=${Math.random()}`;
+        });
+    });
+
+    document.addEventListener("DOMContentLoaded", function() {
+        document.querySelectorAll(".main-section__stories-photo").forEach((img, index) => {
+            img.src =`https://picsum.photos/30/30?random=${Math.random()}`;
+        });
+    });
+
